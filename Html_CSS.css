@@ -1,0 +1,67 @@
+			@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600,600i');
+			
+			body {font-family: 'Open Sans', sans-serif;font size:16px;font-weight: 300; color:rgb(255,255,255); margin:0; padding:0;}
+			
+			#page{ max-width: 760px; margin: 0 auto; positon: relative;}
+			#BG{ max-width: 1520px; min-height:300px; margin: 0 auto; position: relative;}
+			/*text*/ 
+			h1{ margin: 0 0 1em 0; font-size: 1.6em; font-weight: 600;}
+			h2{ margin: 0 0 1em 0; font-size: 2.0em; font-weight: 600;}
+			h3{ margin: 0 0 1em 0; font-size: 1.2em; font-weight: 600;}
+			h4{ margin: 0 0 1em 0; font-size: 3.0em; font-weight: 600;}
+			
+			p{ margin: 0 0 1em 0; font-size: 1.5em; font-weight: 300;}
+			
+			a { color: #001eff;font-decoration:none }
+			a:visited { color: #65blff; }
+			
+			a.btn {font-size: 1.4em; text-decoration: none; color: #00f; border: 1px solid #fff; padding:4px 15px; transition: background-color .5s;}
+			a.btn:hover {background-color: rgba(255,0,0,.5);}
+			
+			/*header*/
+			header {height: 430px;background-image:url(Html_elements/CS_header.jpg);background-repeat: no repeat 0 0; background-size: contain;}
+			header a.logo { position: absolute; display: block; width: 180px; height: 66px;background-image:url(Html_elements/XYZ_Gamers_Paradise_Logo.jpg); top: 15px; left: 400px;}
+			header a.logo span{display: none;}
+			header h1 { position: absolute; display: block;top:360px; left:400px;}
+			body {height: 800px;background-image:url(Html_elements/Space.jpg);background-repeat:repeat-y;width:1520px;}
+			
+			/*Section - all */
+			section {padding:0 30px;}
+			section::after {content:""; display: block; clear: both;}
+			
+			/*Section - main */
+			section.main{ margin-top: 30px; margin-bottom:30px; padding: 0;}
+			section.main aside{width: 50%; float:left; text-align:center;}
+			section.main.Content{ margin:20px; background:no-repeat center top; background-size:75px 75px; padding-top:85px;}
+			section.PC.Content.desc{text-align:center;}
+			section.TCG{margin:15px;}
+			
+			/*Footer*/
+			footer {font-size:.8em; margin: 40px; color: #999999;}
+			
+			/*Navigation*/
+			nav{background-color:rgba(60,200,255,0.65); position:relative; top: 0px; left: 0px; width: 1520px;}
+			
+			nav::after {content:''; display: block; clear:both;}
+			
+			nav ul li:hover{background-color:#ff00d1;}
+			nav ul li:hover > ul{display: block;}
+			
+			nav ul {list-style:none; margin:0; padding:0;}
+			
+			nav ul li a{display: inline-block; color: #fff; padding: 10px 20px; text-decoration: none; width: 125px; position: relative;}
+			
+			nav ul li a:visited { color: #ffffff;}
+			
+			nav ul li a:hover { color: #00ff08;}
+			
+			nav ul ul {position:absolute; top:100%; background-color:#0c00f4; display:none;}
+			
+			nav ul ul li {position: relative;}
+			
+			/*top-level*/
+			nav > ul > li{float: left;}
+			nav > ul > li > a {width:auto; padding-right:30px; padding-left:20px}
+			
+			
+			
